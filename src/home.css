@@ -1,0 +1,71 @@
+    .student-container {
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.student-card {
+  background: #d1dee4;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  width: 260px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center; 
+}
+
+.student-card:hover {
+transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-color: #4e89ff;
+}
+
+
+.student-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+
+.student-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4e89ff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 15px;
+}
+
+
+.student-info {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+  margin: 6px 0;
+}
+
+
+.student-info-card {
+  display: inline-flex;
+  align-items: center;
+  
+  margin: 6px 0;
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #555;
+}
+
+.student-gender {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #666;
+}
