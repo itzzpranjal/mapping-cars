@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Home.css"
+import "./home.css"
 import { Building2 } from "lucide-react"
 import { Mail } from "lucide-react"
 import student_Data from "./config/student.js"
@@ -30,4 +30,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home
